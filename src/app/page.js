@@ -1,10 +1,17 @@
+'use client';
+import { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Hero from '@/components/Hero/Hero';
 
-const Home = () => {
+export default function Home() {
+  const box = useRef(null);
+
   return (
-    <>
-      <h1 className='text-3xl flex justify-center items-center'>Home</h1>
-    </>
-  )
+    <main ref={box} data-scroll-section>
+       <Hero color="blue"/>
+       
+       
+    </main>
+  );
 }
-
-export default Home
