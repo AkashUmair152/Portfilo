@@ -1,0 +1,9 @@
+@media (max-width: 320px) {
+    .header {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .social-icons {
+      gap: 0.5rem;
+    }
+  }

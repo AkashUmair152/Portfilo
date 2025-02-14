@@ -13,7 +13,19 @@ html.has-scroll-smooth {
   [data-scroll-container] {
     min-height: 100vh;
   }
-  
+
+  /* #minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #fff;
+    pointer-events: none;
+  } */
+ 
+
   /* Optional: Smooth scroll fix for Safari */
   @media (prefers-reduced-motion: reduce) {
     [data-scroll-container] {

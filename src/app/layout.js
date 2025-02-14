@@ -22,8 +22,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <ScrollWrapper>{children}</ScrollWrapper>
+      > 
+        <ScrollWrapper>
+         
+          {children}
+        
+          </ScrollWrapper>
       </body>
     </html>
   );
