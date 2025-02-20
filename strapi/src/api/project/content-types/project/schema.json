@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CompletionDate": {
+      "type": "date"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "MyRole": {
+      "type": "text"
+    },
+    "Technologies": {
+      "type": "blocks"
+    }
+  }
+}
