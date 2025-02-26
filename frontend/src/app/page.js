@@ -8,7 +8,7 @@ import Work from "@/components/Work";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white px-4 md:px-8 lg:px-16 scroll-smooth">
+    <main className="bg-black text-white px-4 md:px-8 lg:px-6  scroll-smooth">
       {/* Custom Container Width */}
       
         {/* Header */}

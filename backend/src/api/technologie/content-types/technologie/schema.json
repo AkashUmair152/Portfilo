@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "singularName": "technologie",
+    "pluralName": "technologies",
+    "displayName": "technologie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Technologies": {
+      "type": "json"
+    }
+  }
+}
